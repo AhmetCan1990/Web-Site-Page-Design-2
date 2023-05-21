@@ -182,3 +182,14 @@ body {
     height: fit-content;
   }
 }
+@media screen and (max-width: 576px) {
+  .main__bottom,
+  .main__middle {
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 1rem 2rem;
+  }
+  .main__top {
+    line-height: 2.5rem;
+  }
+}
